@@ -1,0 +1,139 @@
+
+/*nathem el css */
+
+*{
+    margin: 0;
+    padding: 0;}
+    
+    .container{
+        /*background: url(photos/rftg-01.png);*/
+        color: blanchedalmond;
+        position: relative;
+        height: 100vh;
+        align-items: center;
+        font-family: nike combat stencil;
+        justify-content: center;
+        display: flex;
+        background-size: 100%;
+    }
+    h1{
+        font-size : 60px;
+        z-index: 1;
+    }
+    .color-overlay{background: linear-gradient(to top right , blue , red);
+    width: 100%;
+height: 100%;
+opacity: -4;
+position: absolute;}
+
+.container-fluid{display : flex;
+background-color: #E71D36;
+}
+.navbar {height : 80px;
+    background-color: #E71D36;
+}
+.collapse{
+    float: left;
+    margin-right: 500px;
+justify-content: space-between;
+margin:0 1.5em;
+background-color: #E71D36;
+ 
+}
+.navbar-light {background-color: #E71D36;}
+
+.center{
+    text-align: center;
+    margin-top: -40px;
+}
+
+
+.section {float: right;
+margin-right: 50px;}
+.text{
+    width:50%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 80px;
+    
+}
+.centerr{ width: 100%;
+margin-top: 30px;
+margin-left: 500px;
+z-index: 1;}
+.row {
+  width:100%;
+}
+.top{
+margin-top: 30px;}
+.boxy{width: 100%;
+    height:400px;
+    background-color:rgba(248, 246, 246, 0.979);
+    box-sizing: content-box;
+    
+}
+
+.card {margin-left: 30px;
+    margin-top:40px;}
+.card:hover {background-color: #2EC4B6;}
+.box{
+    width: 90%;
+    height:400px;
+    background-color:#FF9F1C;
+    box-sizing: content-box;
+    margin-left: 50px;
+}
+.image{margin-left: 0px;}
+.form {width: 30%;
+float: right;
+margin-top: -280px;
+margin-right: 200px;}
+.sub{float: right;
+width: 40%;
+margin-top: -350px;
+margin-right: 50px;
+}
+
+
+
+.carousel {margin-top: 100px;
+width: 98%;
+}
+.boxxx {height: 90px;
+background-color:   #E71D36 ;}
+
+/*testimonials*/
+.sc{
+    display: flex;
+   width: 100%;
+}
+.images {flex-direction:row;
+    display: flex;}
+.column {flex-direction:column;
+}
+
+
+.map{float: right;
+margin-right: 20px;
+margin-top: -170px;}
+.contenu{
+    max-width: 1170px;
+    margin:auto;
+}
+.roww{display: flex;}
+ul {list-style: none;}
+.footer{background-color: #2EC4B6;
+padding: 70px 0;
+height: 250px;}
+.footer-col {width: 25%;
+padding : 0 15px;}
+.footer-col h4 {font-size: 20px;
+color: black;
+text-transform: capitalize;
+margin-bottom: 10px;
+font-weight: 500;
+margin-left: 20px;
+}
+.boxxy{height: 50px;
+    background-color:   #238d82;
+margin-top: 50px;}
